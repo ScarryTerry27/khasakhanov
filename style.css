@@ -1,0 +1,76 @@
+.grid_container {
+    height: 800px;
+    width: 100%;
+}
+.menu {
+    text-align: left;
+    text-transform: uppercase;
+    height: 100%;
+    width: 3.2em;
+    background-color: rgb(184, 182, 182);
+    color: white;
+    transition: 1s linear all;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+h2 {
+    text-transform: capitalize;
+}
+
+main {
+    width: 80%;
+    margin-left: 5%;
+}
+
+.menu>h3 {
+    text-align: center;
+    font-size: small;
+}
+
+.menu>div {
+    margin: 0;
+    padding-left: 3.3em;
+    line-height: 3em;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 3em;
+}
+.txt {
+    color: rgba(255, 255, 255, 0);
+    transition: all 1s linear;
+}
+.menu:hover {
+    width: 10em;
+    .menu>div{
+        padding-left: 5em;
+    }
+    .menu>h3 {
+        text-align: left;
+    }
+    .txt {
+        color: rgb(255, 255, 255);
+    }
+}
+.menu>div:hover {
+    background-color: rgb(117, 116, 116);
+}
+.edit {
+    background-image: url('edit.png');
+}
+
+.favorites {
+    background-image: url('favorites.png');
+}
+
+.history {
+    background-image: url('history.png');
+}
+
+.security {
+    background-image: url('security.png');
+}
+
+.settings {
+    background-image: url('settings.png');
+}
